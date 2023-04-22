@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website-Lovedeep Kaur</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#cheetsheet">HTML</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm<span> Lovedeep</span></h1>
+
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------about------------------------------------------------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about me.jpg" class="about me">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My Name is Lovedeep Kaur. I'm a international student in Bow Valley College from india, pursuing Software development and within few days going to complete my first semester happily that was very knowledgeable and helpful for me. I love to listen songs, travelling from one place to another in order to enjoy and explore more exciting things.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('work experience')">Work Experience</p>
+                        <p class="tab-links" onclick="opentab('educational qualifications')">Educational Qualifications</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Fluent in English</span><br>Punjabi and Hindi</li>
+                            <li><span>Effective</span><br>Communication Skills</li>
+                            <li><span>Team Player</span></li>
+                            <li><span>Interpretation</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="work experience">
+                        <ul>
+                            <li><span>Lovely Sweets</span><br>Calgary, NE (Cashier)</li>
+                            <li><span>Friends Pizza</span><br>Calgary, NE(Taking orders and greeting customers) </li>
+                            <li><span>Tim Hortons</span><br>Calgary, SE(preparing sandwiches and orders of drive-thru)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="educational qualifications">
+                        <ul>
+                            <li><span>Software Development</span><br>pursuing in Bow Valley College</li>
+                            <li><span>Secondary school in science</span><br>Guru Hargobind Sahib Khalsa college,patiala Punjab</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!---------------------------------------------------resume------------------------------------------------------------------------->
+<div id="resume">
+    <div class="container">
+        <h1 class="sub-title">My Resume Page</h1>
+        <div class="resume-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Lovedeep Kaur</h2>
+                <br>
+                <p>A Motivated and personable individual pursuing Diploma in Software Development at Bow Valley College, Calgary Alberta eager to gain experience in Canadian work industry.</p>
+                <br>
+                <p>- Excellent Computer skills (Microsoft word, excel, Powerpoint)<br><br>- A little knowledege about HTML, CSS and Java Script.</p>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Education</h2>
+                <br>
+                <p>2023-(Diploma)<br>- continuing with diploma in Software Development Course in Bow Valley College, Calgary Alberta.</p>
+                <br>
+                <p>2021-(Secondary school education)<br>- got 85% marks in Non-Medical from Guru Hargobind Sahib Khalsa College, Patiala.</p>
+                <br>
+                <p> 2019-(High School education)<br>- got 90% marks from Baba Deep Singh Public School, Patiala.</p>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Experience</h2>
+                <br>
+                <p>December 2022-(Cashier/Customer Service)<br>- one month experience of handling customers in Indian Restaurant.</p>
+                <br>
+                <p>January 2023-(cooking and preparing food)<br>- two month experience in Kitchen in Friends Pizza Calgary, Alberta.</p>
+                <br>
+                <p> Now working in Tim-Hortons<br>- Location-Barlow Trail SE Calgary, Alberta.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------------------------------------html cheetsheet-------------------------------------------------------->
+<div id="cheetsheet">
+    <div class="container">
+        <h1 class="sub-title">HTML cheetsheet</h1>
+        <br>
+        <a href="HTML-Cheatsheet.rtf" class="btn.btn2">Download HTML Sheet</a>
+    </div>
+</div>
+<!------------------------------------------------------contact----------------------------------------------------------------------------->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> lovedeep.ghumaan005@gmail.com</p>
+                <br>
+                <p><i class="fa-solid fa-square-phone"></i> 403-361-0400</p>
+                <br>
+                <div class="social-icons">
+                    <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                </div>
+     <!-----------------------------------css cheatsheet------------------------------------------------------------>
+                <a href="CSS-Cheatsheet.rtf" class="btn.btn2">Download CSS Cheatsheet</a>
+            </div>
+            <div class="contact-right">
+                <form class="" action="mailto: lovedeep.ghumaan005@gmail.com" method="post" enctype="text/plain">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="E-mail" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                   </form> 
+              </form>
+        </div>
+      </div>
+   </div>
+ </div>
+
+<script>
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+
+     function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+     }
+
+     
+</script>
+
+
+</body>
+</html>
